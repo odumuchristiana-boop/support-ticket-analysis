@@ -50,6 +50,7 @@ This dashboard was built in Power BI to analyze customer support ticket trends a
 - Data Visualization
 
 ## Power BI File
+https://github.com/odumuchristiana-boop/support-ticket-analysis/raw/refs/heads/main/Customer_Support_Dashboard.pbix
 
 
 ## Dashboard Screenshot
