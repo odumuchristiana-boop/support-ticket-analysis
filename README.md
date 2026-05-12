@@ -3,9 +3,9 @@ Customer Support Ticket Analysis using SQL and Power BI
 
 
 
-# SQL Analysis
+SQL Analysis
 
-# 1. Tickets by Category
+1. Tickets by Category
 ```sql
 SELECT category, COUNT(*) AS total_tickets
 FROM tickets
@@ -14,14 +14,14 @@ GROUP BY category;
 DB Fiddle Result
 <img width="1609" height="312" alt="image" src="https://github.com/user-attachments/assets/1322c925-f0fd-455e-8de3-a5bc0830c320" />
 
-# 2. Average Resolution time
+ 2. Average Resolution time
 SELECT AVG(DATEDIFF(resolved_date, created_date)) AS avg_resolution_time
 FROM tickets;
 
 DB Fiddle Result
 <img width="1609" height="164" alt="image" src="https://github.com/user-attachments/assets/f30cc6c0-3a93-46ae-b69f-6536dcbd67ee" />
 
-#3. Tickets by priority
+3. Tickets by priority
 
 SELECT priority, COUNT(*) AS total_tickets
 FROM tickets
@@ -32,28 +32,28 @@ DB Fiddle Result
 
 
 
-# Power BI Dashboard
+Power BI Dashboard
 
-## Dashboard Overview
+Dashboard Overview
 This dashboard was built in Power BI to analyze customer support ticket trends and performance.
 
-### Dashboard Features
+Dashboard Features
 - Total Ticket Count KPI
 - Tickets by Issue Category
 - Tickets by Priority Level
 - Ticket Subject Analysis
 
-## Tools Used
+Tools Used
 - SQL
 - Power BI
 - DAX
 - Data Visualization
 
-## Power BI File
+Power BI File
 https://github.com/odumuchristiana-boop/support-ticket-analysis/raw/refs/heads/main/Customer_Support_Dashboard.pbix
 
 
-## Dashboard Screenshot
+Dashboard Screenshot
 <img width="1344" height="755" alt="image" src="https://github.com/user-attachments/assets/53de2471-f5ad-4307-9d47-d9248dfdd51d" />
 
 
