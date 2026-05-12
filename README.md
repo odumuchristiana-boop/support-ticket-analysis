@@ -32,5 +32,30 @@ DB Fiddle Result
 
 
 
+# Power BI Dashboard
+
+## Dashboard Overview
+This dashboard was built in Power BI to analyze customer support ticket trends and performance.
+
+### Dashboard Features
+- Total Ticket Count KPI
+- Tickets by Issue Category
+- Tickets by Priority Level
+- Ticket Subject Analysis
+
+## Tools Used
+- SQL
+- Power BI
+- DAX
+- Data Visualization
+
+## Power BI File
+
+
+## Dashboard Screenshot
+<img width="1344" height="755" alt="image" src="https://github.com/user-attachments/assets/53de2471-f5ad-4307-9d47-d9248dfdd51d" />
+
+
+
 
 
